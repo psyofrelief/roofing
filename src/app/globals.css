@@ -69,7 +69,7 @@
   --animate-accordion-down: accordion-down 0.2s ease-out;
   --animate-accordion-up: accordion-up 0.2s ease-out;
 
-  --spacing-screen-minus-navbar: calc(100vh - 73px);
+  --spacing-screen-minus-navbar: calc(100vh - 69px);
 
   @keyframes accordion-down {
     from {
@@ -118,6 +118,7 @@
 body {
   font-family: var(--font-sans), sans-serif;
   font-size: var(--text-sm);
+  color: var(--color-foreground);
 }
 
 li {
